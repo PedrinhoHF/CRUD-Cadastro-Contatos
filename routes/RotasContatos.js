@@ -4,6 +4,6 @@ var router = express.Router();
 const ContatosController = require('../controller/ContatosController');
 
 
-router.get('/');
+router.get('/',ContatosController.index);
 
 module.exports = router;
